@@ -11,16 +11,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Was Chic et Fils - Matériaux de Construction Premium",
-  description: "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
+  description:
+    "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-    ],
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     apple: "/favicon.svg",
   },
   openGraph: {
     title: "Was Chic et Fils - Matériaux de Construction Premium",
-    description: "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
+    description: "Des prix chics pour des clients chics.",
     url: "https://waschic.com",
     siteName: "Was Chic et Fils",
     locale: "fr_FR",
@@ -37,7 +36,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Was Chic et Fils - Matériaux de Construction Premium",
-    description: "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
+    description:
+      "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
     images: ["/waschic.jpg"],
   },
 };
@@ -60,9 +60,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-display antialiased`}>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
