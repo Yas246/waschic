@@ -13,8 +13,23 @@ export const metadata: Metadata = {
   title: "Was Chic et Fils - Matériaux de Construction Premium",
   description: "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
     apple: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Was Chic et Fils - Matériaux de Construction Premium",
+    description: "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
+    url: "https://waschic.com",
+    siteName: "Was Chic et Fils",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Was Chic et Fils - Matériaux de Construction Premium",
+    description: "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
   },
 };
 
