@@ -34,7 +34,7 @@ export default function Hero() {
               <img
                 className="w-full h-full object-cover rounded shadow-2xl"
                 data-alt="Architectural concrete slab textures"
-                src="/hero-overlay.jpg"
+                src="/hero-overlay.png"
                 alt=""
               />
             </div>

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/favicon.svg",
+        url: "/waschic.jpg",
         width: 1200,
         height: 630,
         alt: "Was Chic et Fils - Matériaux de Construction Premium",
@@ -38,6 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Was Chic et Fils - Matériaux de Construction Premium",
     description: "L'excellence du matériel de construction et outillage premium. Des prix chics pour des clients chics.",
+    images: ["/waschic.jpg"],
   },
 };
 

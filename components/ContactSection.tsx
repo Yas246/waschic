@@ -12,7 +12,7 @@ export default function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const companyEmail = "contact@waschic.com"; // Email de l'entreprise
+    const companyEmail = "waschietfils@gmail.com"; // Email de l'entreprise
     const subject = encodeURIComponent("Demande de devis");
     const body = encodeURIComponent(
       `Nom: ${formData.name}\nTéléphone: ${formData.phone}\n\nMessage:\n${formData.message}`,
@@ -61,7 +61,7 @@ export default function ContactSection() {
                 <h4 className="font-bold text-slate-900 dark:text-slate-100 uppercase tracking-widest text-xs">
                   Téléphone
                 </h4>
-                <p className="text-xl font-medium">+229 01 00 00 00 00</p>
+                <p className="text-xl font-medium">+229 01 69 93 16 45</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
