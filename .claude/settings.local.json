@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -o \"plomberie.jpg\" \"https://lh3.googleusercontent.com/aida-public/AB6AXuA5WFlWvCd5rbEEFJr_SdCYCbM8DMk08YM7pZCvYHk1MXEZoF3PBmtQzK2Gx9ZPP9ocbpYwg96w9N7cS9sNjKmbkE4WSl64uJBodWA2K8OjZ-31f1lPhMf5QVMgqvJ85Rs_J9q340WBc0rIfSL0aDLlAbkO7BPney86uuEamacVV9zvhCrhOl88FEWKxnuFDXsnClOsmwnDP5lEcArbWFQfKUXLvmDTIDFjkDHyKilpoVUbsMIkd5iU3Op684thk0fCJyRk8lx66pk\")"
+    ]
+  }
+}
